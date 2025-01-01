@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:TestTray}",
+            "name": "Debug TestTray",
+            "program": "${workspaceFolder:TestTray}/.build/debug/TestTray",
+            "preLaunchTask": "swift: Build Debug TestTray"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:TestTray}",
+            "name": "Release TestTray",
+            "program": "${workspaceFolder:TestTray}/.build/release/TestTray",
+            "preLaunchTask": "swift: Build Release TestTray"
+        }
+    ]
+}
